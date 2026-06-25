@@ -1,0 +1,8 @@
+{
+  "name": "9router-btl",
+  "scripts": { "start": "bash start.sh" },
+  "dependencies": {
+    "9router": "latest",
+    "better-sqlite3": "^11.0.0"
+  }
+}
