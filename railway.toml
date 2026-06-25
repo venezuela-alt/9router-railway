@@ -1,0 +1,8 @@
+[build]
+builder = "DOCKERFILE"
+
+[[volumes]]
+mountPath = "/app/data"
+
+[variables]
+BTL_KEYS = { required = true, description = "BTL API keys, one per line" }
